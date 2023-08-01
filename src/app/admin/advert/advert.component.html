@@ -1,0 +1,36 @@
+<div>
+  <div class="alert alert-success">
+    {{Advert.length}} adet ilan bulunmuştur
+  </div>
+  <table class="table table-hover">
+    <thead>
+        <th>İlan</th>
+        <th>İsim</th>
+        <th>Konum</th>
+        <th>Fiyat</th>
+        <th>Tür</th>
+        <th></th>
+        <th></th>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr *ngFor="let advert of Advert">
+            <td><img src="../assets/images/{{advert.images[0]}}" style="width: 75px;"></td>
+            <td>{{advert.name}}</td>
+            <td>{{advert.location}}</td>
+            <td>{{advert.price}}</td>
+            <td>{{advert.category}}</td>
+            <td>
+                <button class="btn btn-primary">Resimler</button>
+            </td>
+            <td>
+                <button class="btn btn-danger" (click)="deleteAdvert(advert)">Sil</button>
+            </td>
+            <td>
+                <button class="btn btn-warning" routerLink="/admin/main/advert/edit/{{advert.id}}">Güncelle</button>
+            </td>
+        </tr>
+    </tbody>
+  </table>
+  <button class="btn btn-primary" routerLink="/admin/main/advert/add">İlan Ekle</button>
+</div>

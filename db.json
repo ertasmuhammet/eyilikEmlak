@@ -1,0 +1,80 @@
+{
+  "adverts": [
+    {
+      "id": 3,
+      "name": "Eyilik Dairesi",
+      "location": "İzmir",
+      "imageUrl": "Daire.jpg",
+      "price": 10000000,
+      "description": "3 katlı, 5+1, 3 adet tuvalet-banyo, amerikan mutfak",
+      "category": "Daire",
+      "images": [
+        "Daire2.jpeg",
+        "Daire3.jpeg",
+        "muge ovacik render mutfak_1.jpeg"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Eyilik Dükkan",
+      "location": "İzmir",
+      "imageUrl": "Daire.jpg",
+      "price": 10000000,
+      "description": "3 katlı, 5+1, 3 adet tuvalet-banyo, amerikan mutfak",
+      "category": "Dukkan",
+      "images": [
+        "Dukkan1.jpeg",
+        "Dukkan2.jpeg",
+        "Dukkan3.jpeg"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Eyilik Arsası",
+      "location": "İzmir",
+      "imageUrl": "Daire.jpg",
+      "price": 10000000,
+      "description": "3 katlı, 5+1, 3 adet tuvalet-banyo, amerikan mutfak",
+      "category": "Arsa",
+      "images": [
+        "Arsa1.webp",
+        "Arsa2.jpeg",
+        "Arsa3.jpeg"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Eyilik Villa",
+      "location": "İzmir",
+      "imageUrl": "Daire.jpg",
+      "price": 10000000,
+      "description": "3 katlı, 5+1, 3 adet tuvalet-banyo, amerikan mutfak",
+      "category": "Villa",
+      "images": [
+        "Villa1.jpeg",
+        "Villa2.jpeg",
+        "Villa3.webp"
+      ]
+    },
+    {
+      "name": "Eyilik Dükkan",
+      "location": "İstanbul",
+      "price": "3000000",
+      "category": "Dukkan",
+      "description": "Açıklama",
+      "images": [
+        "Dukkan1.jpeg",
+        "Dukkan2.jpeg",
+        "Dukkan3.jpeg"
+      ],
+      "id": 7
+    }
+  ],
+  "categories": [
+    "Arsa",
+    "Dukkan",
+    "Villa",
+    "Daire",
+    "Tarla"
+  ]
+}

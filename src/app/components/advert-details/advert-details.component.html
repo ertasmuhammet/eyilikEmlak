@@ -1,0 +1,74 @@
+<hr>
+<div class="d-flex">
+  <div class="col-md-9">
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div *ngFor="let item of advert.images">
+        <div class="carousel-item" [class.active] = "activeted(item)" >
+          <img src="/assets/images/{{item}}" class="d-block w-100" style="height: 480px;" alt="...">
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <div class="col-md-3 ms-2 border">
+    <div class="form-group mt-1">
+      <label class="advertDetails">
+        İlan No:
+      </label>
+      <label class="advertDetails">
+        {{advert.id}}
+      </label>
+      <br>
+      <br>
+    </div>
+    <div class="form-group">
+      <label class="advertDetails">
+        İlan Tarihi:
+      </label>
+      <label class="advertDetails">
+        {{advert.id}}
+      </label>
+      <br>
+      <br>
+    </div>
+    <div class="form-group">
+      <label class="advertDetails">
+        Emlak Tipi:
+      </label>
+      <label class="advertDetails">
+        {{advert.category}}
+      </label>
+      <br>
+      <br>
+    </div>
+    <div class="form-group">
+      <label class="advertDetails">
+        Fiyat:
+      </label>
+      <label class="advertDetails">
+        {{advert.price}}
+      </label>
+      <br>
+      <br>
+    </div>
+    <div class="form-group">
+      <label class="advertDetails">
+        Açıklama:
+      </label>
+      <label class="advertDetails">
+        {{advert.description}}
+      </label>
+      <br>
+      <br>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+#navbar{
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color:rgb(187, 184, 184);
+    display: block;
+    
+}
