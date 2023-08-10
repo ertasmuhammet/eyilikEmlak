@@ -12,11 +12,13 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 ## Install
 
+Install ANGULAR CLI --> npm install -g @angular/cli
+
 Install JSON Server --> npm install -g json-server
 
 Install multer --> npm install express multer
 
-Install nodemon --> npm install global nodemon
+Install nodemon --> npm install -g nodemon
 
 ## Build
 
