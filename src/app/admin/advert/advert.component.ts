@@ -29,7 +29,6 @@ export class AdvertComponent {
       this.selectedCategory = this._activatedRoute.snapshot.params['category'];
     }
     this.adverts =  this._advertRepository.getAdvertByCategory(this.selectedCategory);
-    console.log(this.adverts);
     return this.adverts;
   }
 

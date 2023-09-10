@@ -1,5 +1,7 @@
 # EyilikEmlak
 
+EyilikEmlak project is for Real Estate and it provides upload, delete and update adverts by admin easily. In this project,  Angular was used for frontend and JsonServer was used for datas. The project continues to be developed. I aim to use .NET for backend and use JWT authentication.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.2.
 
 ## Development server
